@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Web Game</title>
+</head>
+<body>
+<h1>Welcome to the Game!</h1>
+<form id="gameForm">
+    <p>Enter your name:</p>
+    <input type="text" id="name" name="name" required>
+    <p>Enter a number (1 through 10):</p>
+    <input type="text" id="number" name="number" required>
+    <button type="submit">Play</button>
+</form>
+
+<script>
+    document.getElementById('gameForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const name = document.getElementById('name').value;
+        const number = document.getElementById('number').value;
+        window.location.href = "/" + name + "?num=" + number;
+    });
+</script>
+</body>
+</html>
