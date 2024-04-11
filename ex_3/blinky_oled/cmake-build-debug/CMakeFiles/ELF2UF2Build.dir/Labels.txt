@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/CMakeFiles/ELF2UF2Build
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/CMakeFiles/ELF2UF2Build.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/CMakeFiles/ELF2UF2Build-complete.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

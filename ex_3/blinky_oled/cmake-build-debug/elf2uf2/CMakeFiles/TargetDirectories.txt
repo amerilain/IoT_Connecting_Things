@@ -1,0 +1,5 @@
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/CMakeFiles/elf2uf2.dir
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/CMakeFiles/edit_cache.dir
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/CMakeFiles/rebuild_cache.dir
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
