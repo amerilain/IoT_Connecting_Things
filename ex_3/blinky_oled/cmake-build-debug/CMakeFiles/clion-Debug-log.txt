@@ -23,7 +23,7 @@ Using regular optimized debug build (set PICO_DEOPTIMIZED_DEBUG=1 to de-optimize
 PICO target board is pico_w.
 Using CMake board configuration from /Users/amerilain/pico/pico-sdk/src/boards/pico_w.cmake
 Using board configuration from /Users/amerilain/pico/pico-sdk/src/boards/include/boards/pico_w.h
--- Found Python3: /usr/local/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.2") found components: Interpreter 
 TinyUSB available at /Users/amerilain/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040; enabling build support for USB.
 Compiling TinyUSB with CFG_TUSB_DEBUG=1
 BTstack available at /Users/amerilain/pico/pico-sdk/lib/btstack
@@ -32,6 +32,6 @@ Pico W Bluetooth build support available.
 lwIP available at /Users/amerilain/pico/pico-sdk/lib/lwip
 Pico W Wi-Fi build support available.
 mbedtls available at /Users/amerilain/pico/pico-sdk/lib/mbedtls
--- Configuring done (1.0s)
--- Generating done (0.0s)
+-- Configuring done (1.2s)
+-- Generating done (0.1s)
 -- Build files have been written to: /Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky_oled/cmake-build-debug

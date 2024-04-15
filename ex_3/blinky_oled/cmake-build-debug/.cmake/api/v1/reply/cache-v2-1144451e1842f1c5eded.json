@@ -1335,7 +1335,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/local/bin/python3.10][cfound components: Interpreter ][v3.10.6()]"
+			"value" : "[/opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12][cfound components: Interpreter ][v3.12.2()]"
 		},
 		{
 			"name" : "PICO_BOARD",
@@ -1719,7 +1719,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/local/bin/python3.10"
+			"value" : "/opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12"
 		},
 		{
 			"name" : "_Python3_INTERPRETER_PROPERTIES",
@@ -1731,7 +1731,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Python;3;10;6;32;64;;;abi3;/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10;/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10;/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages;/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages"
+			"value" : "Python;3;12;2;32;64;;;abi3;/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12/lib/python3.12;/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12/lib/python3.12;/opt/homebrew/lib/python3.12/site-packages;/opt/homebrew/lib/python3.12/site-packages"
 		},
 		{
 			"name" : "_Python3_INTERPRETER_SIGNATURE",
@@ -1743,7 +1743,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "98c9afe7104b3e9bb72cf16541317268"
+			"value" : "4a88e62a1732031393af8d56e6300efe"
 		},
 		{
 			"name" : "_Python3_NumPy_REASON_FAILURE",

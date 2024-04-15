@@ -1,7 +1,7 @@
 //
 // Created by Keijo Länsikunnas on 18.2.2024.
 //
-// This based on MicroPython modframebuf.c
+// This is based on MicroPython modframebuf.c
 // modframebuf.c licence attached below
 /*
  * This file is part of the MicroPython project, http://micropython.org/
@@ -35,11 +35,10 @@
 mono_vlsb::mono_vlsb(uint16_t width_, uint16_t height_, uint16_t stride_, uint16_t buf_offset) :
         framebuf(width_, height_),
         size(width_ * (height_ / 8 + (height_ % 8 ? 1 : 0)) + buf_offset), stride(stride_), buffer_offset(buf_offset),
-        buffer(std::shared_ptr<uint8_t>(new uint8_t[size]))
-        {
+        buffer(std::shared_ptr<uint8_t>(new uint8_t[size])) {
     // zero out the buffer
-    std::fill(buffer.get(), buffer.get()+size, 0);
-    if(stride == 0) stride = width_;
+    std::memset(buffer.get(), 0, size);
+    if (stride < width_) stride = width_;
 }
 
 mono_vlsb::mono_vlsb(const uint8_t *image, uint8_t width_, uint16_t height_, uint16_t stride_, uint16_t buf_offset) :
@@ -48,7 +47,7 @@ mono_vlsb::mono_vlsb(const uint8_t *image, uint8_t width_, uint16_t height_, uin
         buffer(std::shared_ptr<uint8_t>(new uint8_t[size])) {
     // copy image to the buffer
     std::memcpy(buffer.get() + buf_offset, image, size - buf_offset);
-    if(stride == 0) stride = width_;
+    if (stride < width) stride = width_;
 }
 
 

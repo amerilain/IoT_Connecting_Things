@@ -27,7 +27,7 @@ add_executable(${PROJECT_NAME}
         display/mono_vlsb.cpp
         display/ssd1306.cpp
         display/framebuf.h
-        i2c_display.cpp
+        display/face.h
 )
 
 # Create map/bin/hex/uf2 files
@@ -48,3 +48,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 # Enable usb output, disable uart output
 pico_enable_stdio_usb(${PROJECT_NAME} 1)
 pico_enable_stdio_uart(${PROJECT_NAME} 0)
+
+# Add custom command to copy the .uf2 file to the pico
+add_custom_command(TARGET ${PROJECT_NAME}
+        POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_BINARY_DIR}/${PROJECT_NAME}.uf2 /Volumes/RPI-RP2/)
