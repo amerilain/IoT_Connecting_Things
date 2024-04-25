@@ -31,8 +31,9 @@ const mqttClient = mqtt.connect('mqtt://18.198.188.151:21883', options);
 // Check that you are connected to MQTT and subscribe to a topic (connect event)
 mqttClient.on('connect', () => {
     console.log('Connected to MQTT broker');
-    mqttClient.subscribe('Yo/Mama', () => {
-        console.log('Subscribed to topic');
+    // Subscribe to both topics
+    mqttClient.subscribe(['Yo/Mama', 'Yo/Papa'], () => {
+        console.log('Subscribed to topics Yo/Mama and Yo/Papa');
     });
 });
 
@@ -50,17 +51,13 @@ mqttClient.on('message', async (topic, messageBuffer) => {
     try {
         const messages = await read();
 
-        // Check if the message is already in list to avoid duplicates
-        const messageExists = messages.some(
-            (m) =>
-                //m.topic === topic &&
-            m.msg === messageString
-        );
+
+        const messageExists = messages.some(m => m.msg === messageString && m.topic === topic);
 
         if (!messageExists) {
             const newMessage = {
                 id: uuidv4(),
-                //topic: topic,
+                topic: topic,
                 msg: messageString
             };
             messages.push(newMessage);

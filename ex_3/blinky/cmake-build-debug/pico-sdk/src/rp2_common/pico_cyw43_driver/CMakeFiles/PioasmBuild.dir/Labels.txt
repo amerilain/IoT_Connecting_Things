@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/Users/amerilain/Documents/ICT_docs/2nd_year/IoT_Connecting_Things/Assignments/ICT_Projects/ex_3/blinky/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule
